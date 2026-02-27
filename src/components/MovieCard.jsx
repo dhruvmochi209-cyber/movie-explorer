@@ -11,7 +11,7 @@ const MovieCard = ({ movie }) => {
 
   return (
     //group relative w-[200px] md:w-[230px]
-    <div className="group relative w-[300px] rounded-2xl overflow-hidden bg-[#141414] shadow-xl hover:shadow-2xl transition-all duration-500 hover:scale-105">
+    <div className="group relative w-[270px] rounded-2xl overflow-hidden bg-[#141414] shadow-xl hover:shadow-2xl transition-all duration-500 hover:scale-105">
 
       {/* Poster */}
       <img

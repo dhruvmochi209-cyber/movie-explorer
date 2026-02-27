@@ -23,8 +23,8 @@ const Header = () => {
           to="/"
           className="flex items-center gap-2 text-2xl font-bold tracking-wide"
         >
-          <span className="text-2xl">🎬</span>
-          <span className="bg-gradient-to-r from-[#ff2e63] to-[#08d9d6] bg-clip-text text-transparent text-3xl">
+          <span className="text-1xl">🎬</span>
+          <span className="bg-gradient-to-r from-[#ff2e63] to-[#08d9d6] bg-clip-text text-transparent text-2xl">
             Movie Explorer
           </span>
         </Link>

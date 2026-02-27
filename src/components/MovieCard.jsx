@@ -10,7 +10,8 @@ const MovieCard = ({ movie }) => {
       : "https://via.placeholder.com/300x450/111111/ffffff?text=No+Image";
 
   return (
-    <div className="group relative w-[200px] md:w-[230px] rounded-2xl overflow-hidden bg-[#141414] shadow-xl hover:shadow-2xl transition-all duration-500 hover:scale-105">
+    //group relative w-[200px] md:w-[230px]
+    <div className="group relative w-[250px] rounded-2xl overflow-hidden bg-[#141414] shadow-xl hover:shadow-2xl transition-all duration-500 hover:scale-105">
 
       {/* Poster */}
       <img

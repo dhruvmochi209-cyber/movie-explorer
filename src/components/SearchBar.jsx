@@ -29,7 +29,7 @@ const SearchBar = () => {
           value={input}
           onChange={(e) => setInput(e.target.value)}
           placeholder="Search for movies..."
-          className="flex-1 bg-transparent outline-none text-white placeholder-gray-400 px-3"
+          className="flex-1 bg-transparent outline-none text-white placeholder-gray-400 px-3 min-w-0"
           onKeyDown={(e) => e.key === "Enter" && handleSearch()}
         />
 

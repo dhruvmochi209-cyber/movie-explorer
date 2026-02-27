@@ -16,7 +16,7 @@ const Header = () => {
 
   return (
     <header className="sticky top-0 z-50 backdrop-blur-xl bg-black/40 border-b border-white/10 shadow-xl">
-      <div className="max-w-7xl mx-auto px-8 py-4 flex justify-between items-start">
+      <div className="max-w-7xl mx-auto px-4 md:px-8 py-4 flex flex-wrap gap-4 justify-between items-center">
 
         {/* LEFT SIDE LOGO */}
         <Link

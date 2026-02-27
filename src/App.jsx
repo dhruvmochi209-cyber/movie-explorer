@@ -9,7 +9,8 @@ function App() {
   const { isAuthenticated } = useSelector((state) => state.auth);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-[#0f0f1a] via-[#111827] to-[#1f2937] text-white">
+    //overflow-x-hidden added 
+    <div className="min-h-screen bg-gradient-to-br from-[#0f0f1a] via-[#111827] to-[#1f2937] text-white overflow-x-hidden">
 
       {/* Header only when logged in */}
       {isAuthenticated && <Header />}

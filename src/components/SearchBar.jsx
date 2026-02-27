@@ -17,7 +17,7 @@ const SearchBar = () => {
     <div className="w-full flex flex-col items-center justify-center mt-12 mb-10 px-4">
 
       {/* Heading */}
-      <h1 className="text-4xl md:text-5xl font-bold text-center mb-6 bg-gradient-to-r from-[#ff2e63] to-[#08d9d6] bg-clip-text text-transparent">
+      <h1 className="md:text-5xl font-bold text-center mb-6 bg-gradient-to-r from-[#ff2e63] to-[#08d9d6] bg-clip-text text-transparent">
         Discover Movies 🎬
       </h1>
 
